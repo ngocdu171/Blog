@@ -1,5 +1,6 @@
-import React from 'react'
-import News from './components/News/News'
+import React from 'react';
+import News from './components/News/News';
+import './Styles.css';
 
 const App = () => {
   return (
