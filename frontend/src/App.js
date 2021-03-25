@@ -1,14 +1,15 @@
-import React from 'react';
-import News from './components/News/News';
-import './Styles.css';
+import React from "react";
+import Home from "./components/Home";
+import News from "./components/News/News";
+import "./Styles.css";
 
 const App = () => {
   return (
     <div>
-      Hello World
+      <Home />
       <News />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
