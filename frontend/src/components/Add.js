@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Narbar = () => {
+export default function Add() {
     return (
         <div>
-            Narbar
+            this is add page
         </div>
     )
 }
-
-export default Narbar
